@@ -1,7 +1,7 @@
 package Color::RGB::Util;
 
-our $DATE = '2014-12-05'; # DATE
-our $VERSION = '0.57'; # VERSION
+our $DATE = '2015-01-03'; # DATE
+our $VERSION = '0.58'; # VERSION
 
 use 5.010001;
 use strict;
@@ -167,7 +167,7 @@ Color::RGB::Util - Utilities related to RGB colors
 
 =head1 VERSION
 
-This document describes version 0.57 of Color::RGB::Util (from Perl distribution Color-RGB-Util), released on 2014-12-05.
+This document describes version 0.58 of Color::RGB::Util (from Perl distribution Color-RGB-Util), released on 2015-01-03.
 
 =head1 SYNOPSIS
 
@@ -236,11 +236,6 @@ Tint C<$rgb> with C<$tint_rgb>. $pct is by default 0.5. It is similar to mixing,
 but the less luminance the color is the less it is tinted with the tint color.
 This has the effect of black color still being black instead of becoming tinted.
 
-=head1 TODO
-
-mix_rgb_colors() to mix several RGB colors. Args might be $rgb1, $rgb2, ... or
-$rgb1, $part1, $rgb2, $part2, ... (e.g. 'ffffff', 1, 'ff0000', 1, '00ff00', 2).
-
 =head1 SEE ALSO
 
 L<Color::ANSI::Util>
@@ -267,7 +262,7 @@ perlancar <perlancar@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2014 by perlancar@cpan.org.
+This software is copyright (c) 2015 by perlancar@cpan.org.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
